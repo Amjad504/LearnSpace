@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".Profile_Activity">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profilepicture"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_baseline_person_24"
+            android:maxHeight="150dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/personpic"
+                android:layout_marginTop="10dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_baseline_account_circle_24" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="80dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginLeft="10dp"
+                    android:text="Name"
+                    android:textColor="#857E7E"
+                    android:textSize="20dp" />
+
+
+                <EditText
+                    android:id="@+id/User_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="5dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:text="username"
+                    android:enabled="false"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/editName"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="-50dp"
+                android:src="@drawable/ic_baseline_edit_24"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_baseline_info_24" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="60dp"
+                    android:text="About"
+                    android:textColor="#857E7E"
+                    android:textSize="20dp" />
+
+
+
+
+                <EditText
+                    android:id="@+id/About"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:enabled="false"
+                    android:text="about"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/editAbout"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="-5dp"
+                android:src="@drawable/ic_baseline_edit_24"/>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_baseline_info_24" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="60dp"
+                    android:text="Speciality"
+                    android:textColor="#857E7E"
+                    android:textSize="20dp" />
+
+
+
+
+                <EditText
+                    android:id="@+id/Speciality"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:enabled="false"
+                    android:text="speciality"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/editSpeciality"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="-5dp"
+                android:src="@drawable/ic_baseline_edit_24"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/updateProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:padding="10dp"
+                android:background="@drawable/button_light_back"
+                android:text="Update Profile"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

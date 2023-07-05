@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+
+
+
+
+
+
+
+
+                <!--            <androidx.appcompat.widget.AppCompatButton-->
+                <!--                android:id="@+id/notifiy"-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:layout_marginLeft="250dp"-->
+                <!--                android:layout_marginRight="20dp"-->
+                <!--                android:layout_marginTop="-40dp"-->
+                <!--                android:text="Notification"-->
+                <!--                android:background="@drawable/btn_bg"-->
+                <!--                android:textColor="@color/white"-->
+                <!--                android:textSize="10dp"-->
+                <!--                android:textStyle="bold" />-->
+
+                <SearchView
+                    android:id="@+id/searchView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/searchbar"
+                    android:iconifiedByDefault="false"
+                    android:paddingLeft="-10dp"
+                    android:queryHint="Search" />
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rooms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+</FrameLayout>

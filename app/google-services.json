@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1003584718072",
+    "project_id": "learn-space-d5a30",
+    "storage_bucket": "learn-space-d5a30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003584718072:android:55d422267ff41da4e4270d",
+        "android_client_info": {
+          "package_name": "com.example.learnspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003584718072-t9ndai7rh9t51fhtpo6p3uo01ogh2h05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa1tEUUPa6xKyUDSQFZ48byYpHZH0a39M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003584718072-t9ndai7rh9t51fhtpo6p3uo01ogh2h05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

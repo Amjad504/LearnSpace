@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:iconTint="@color/black"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/private_room"
+        android:title="Private Room"
+        android:icon="@drawable/private_room"/>
+
+
+<!--    <item-->
+<!--        android:id="@+id/chat"-->
+<!--        android:title="Chat"-->
+<!--        android:icon="@drawable/chat_icon"/>-->
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24"/>
+
+</menu>
